@@ -22,20 +22,3 @@ function flattenArray(arr) {
 
 console.log(flattenArray([[1, 2], [3, 4], [5, [6, 7]]])) // [1, 2, 3, 4, 5, 6, 7]
 
-// let testArray = [[1, 2], [1, [2,3]]]
-// let newArray = []
-// for(let i=0; i< testArray.length;i++){
-
-//   for(let j=0; j<testArray[i].length;j++){
-//       if(testArray[i][j].length>1){
-//         for(let k=0; k<testArray[i][j]; k++){
-//           newArray.push(testArray[i][j][k])
-//         }
-//       }else{
-//         newArray.push(testArray[i][j])
-//       }
-      
-//     }
-// }
-
-// console.log(testArray)

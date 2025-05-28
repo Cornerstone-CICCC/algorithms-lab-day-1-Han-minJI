@@ -5,16 +5,6 @@ function mostFrequent(arr) {
   let mostFre = ''
   let newArray = {}
   
-  for(let i=0; i<arr.length; i++){
-    if(arr[i] in newArray){
-      newArray[arr[i]] ++
-    }else{
-      newArray[arr[i]] = 1
-    }
-    
-
-
-  }
 
   return newArray
 
