@@ -2,6 +2,17 @@
 
 function findById(arr, id) {
   // your code here
+  let object = {}
+  for(let i=0; i<arr.length; i++){
+    if(arr[i].id === id){
+      object = arr[i]
+    }else{
+      object = null
+    }
+  }
+
+  return object
+
 }
 
 console.log(findById([{ id: 1, name: 'John' }, { id: 2, name: 'Jane' }], 2)) // { id: 2, name: 'Jane' }

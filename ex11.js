@@ -2,6 +2,10 @@
 
 function reverseWords(text) {
   // your code here
+  const words = text.split(' ')
+  const reverseWords= words.reverse()
+  const completeWord = reverseWords.join(' ')
+  return completeWord
 }
 
 console.log(reverseWords('The quick brown fox')) // 'fox brown quick The'

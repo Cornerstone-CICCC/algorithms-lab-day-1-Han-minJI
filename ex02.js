@@ -2,6 +2,20 @@
 
 function filterByCategory(products, category) {
   // your code here
+  
+  let newArray= []
+
+  for(let i=0; i<products.length; i++){
+    if(products[i].category === category){
+    
+      // add to the array
+      newArray.push({ name: products[i].name, category: category})
+    }
+  }
+
+  return newArray
+  
+
 }
 
 console.log(filterByCategory([{ name: 'Apple', category: 'Fruit' }, { name: 'Carrot', category: 'Vegetable' }], 'Fruit')) // [{ name: 'Apple', category: 'Fruit' }]

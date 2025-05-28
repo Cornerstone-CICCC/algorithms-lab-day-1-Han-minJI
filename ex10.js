@@ -2,6 +2,11 @@
 
 function formatDate(dateStr) {
   // your code here
+  const date = dateStr.split('-')
+  const months = ['January', 'Feburary', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+  if(date[1])
+  return date
+
 }
 
 console.log(formatDate('2022-01-01')) // 'January 1, 2022'
